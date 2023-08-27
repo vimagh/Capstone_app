@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-model = pickle.load(open('C:/Users/Vimah/Desktop/Hamoye/capstone deployment/pickled_Gbr.pkl','rb'))
+model = pickle.load(open('streamlit_app.py','rb'))
 
 def main():
     st.title('Primary Education Completion Rate')
