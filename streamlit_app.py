@@ -3,7 +3,6 @@ import numpy as np
 import streamlit as st
 import os
 import string
-pip install scikit-learn
 model = pickle.load(open('pickled_Gbr.pkl', 'rb'))
 
 def main():
