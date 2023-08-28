@@ -9,7 +9,7 @@ model3 = pickle.load(open('pickledlower_Gbr.pkl', 'rb'))
 
 def main():
     st.title('Predicting Education Completion Rate')
-    st.subheader(':blue[_Primary education_]')
+    st.subheader(':blue[_Primary_]')
     st.subheader(':blue[_Upper Secondary education_]')
     st.subheader(':blue[_Lower Secondary education_]')
     
