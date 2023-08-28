@@ -9,6 +9,9 @@ model3 = pickle.load(open('pickledlower_Gbr.pkl', 'rb'))
 
 def main():
     st.title('Primary Education Completion Rate')
+    st.title(':blue[_Primary education_]')
+    st.title(':blue[_Upper Secondary education_]')
+    st.title(':blue[_Lower Secondary education_]')
     
     #input variables
     Childhood_Education_GER = st.text_input('Childhood Education GER')
