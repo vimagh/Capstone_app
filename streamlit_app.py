@@ -9,7 +9,7 @@ model3 = pickle.load(open('pickledlower_Gbr.pkl', 'rb'))
 
 def main():
     st.title('Predicting Education Completion Rate')
-    st.subheader(':blue[_Primary_]')
+    st.subheader(':blue[_Primary Education_]')
     st.subheader(':blue[_Upper Secondary education_]')
     st.subheader(':blue[_Lower Secondary education_]')
     
@@ -33,7 +33,7 @@ def main():
     makeprediction = ""
     
 #prediction code
-    if st.button('Primary education'):
+    if st.button('Primary'):
         makeprediction = model.predict([[Childhood_Education_GER, Gross_enrolment_ratio_early_childhood_educational_development_programmes, Gross_intake_ratio_to_the_last_grade_of_primary_education,
                                          Literacy_rate_for_25_64_years_old, Expenditure_on_education_as_a_percentage_of_total_government_expenditure, Government_expenditure_on_education_as_a_percentage_of_GDP,
                                          Central_Asia, Central_and_Southern_Asia, Eastern_and_South_Eastern_Asia,
