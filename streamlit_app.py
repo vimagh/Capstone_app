@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 import streamlit as st
-
+import os
 model = pickle.load(open(os.path.join('Capstone_app','pickled_Gbr.pkl'), 'rb'))
 
 def main():
